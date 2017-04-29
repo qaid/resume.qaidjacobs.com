@@ -1,3 +1,8 @@
-This is my resume / CV site.
+## Overview
+This is my professional resume / CV.
 
-It is a jekyll project based on the awesome  [ResumeCards](https://github.com/ellekasai/resumecards) template made by [@ellekasai](https://github.com/ellekasai). 
+It is based on a jekyll theme constructed by [Sharu725](https://github.com/sharu725/) and based on a design by Xiaoying Riley at 3rd Wave Media (http://themes.3rdwavemedia.com/)
+
+## To Do
+- [ ] Add details for work experiences
+- [ ] Add more projects and links
