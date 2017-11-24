@@ -6,4 +6,4 @@ It is based on a jekyll theme constructed by [Sharu725](https://github.com/sharu
 ## To Do
 - [X] Add details for work experiences
 - [ ] Add more projects and links
-- [ ] Replace profile pic
+- [X] Replace profile pic
