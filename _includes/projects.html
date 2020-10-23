@@ -1,22 +1,38 @@
+{% assign projects = site.data.data.projects %}
+{% if projects %}
 <section class="section projects-section">
-                <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
-                <div class="intro">
-                    <p>Some side projects keeping me engaged and active.</p>
-                </div><!--//intro-->
 
-                <div class="item">
-                    <span class="project-title"><a href="https://www.alterconf.com/speakers/qaid-jacobs">AlterConf Public Speaking</a></span> - <span class="project-tagline">AlterConf is a conference series that focuses on the powerful voices and positive initiatives of  marginalized people in the tech and gaming industries. I've presented two talks, one in Paris, the other in London.</span>
-                </div><!--//item-->
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ projects.title }}
+  </h2>
 
-                <div class="item">
-                    <span class="project-title"><a href="https://blog.qaidjacobs.com" target="_blank">Slice &amp; Pulp</a></span> -
-                    <span class="project-tagline">A Medium.com publication with some of my creative, critical, cultural, personal, and analytical writing.</span>
-                </div><!--//item-->
+  {% if projects.intro %}
+  <div class="intro">
+      <p>{{ projects.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
 
-                <div class="item">
-                    <span class="project-title"><a href="https://github.com/qaid/thefoodofparadise.com" target="_blank">The Food of Paradise</a></span> -
-                    <span class="project-tagline">A combination of my long-form fiction writing and experiments in technology.</span>
-                </div><!--//item-->
+  {% for project in projects.assignments %}
+    <div class="item">
 
+      <span class="project-title">
+        {% if project.link %}
+        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+        {% else %}
+        {{ project.title }}
+        {% endif %}
+      </span>
 
-            </section><!--//section-->
+      {% if project.tagline %}
+      - <span class="project-tagline">{{ project.tagline }}</span>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

@@ -1,0 +1,17 @@
+{% assign download = site.data.data.download %}
+{% if download %}
+<div class="download-container container-block">
+
+  <h2 class="container-block-title">
+    Download CV/Resume
+  </h2>
+  
+  <ul class="list-unstyled contact-list">
+  	<li>
+	    <i class="fas fa-file-pdf"></i>
+		<a href="https://{{ download.link }}" target="_blank">{{ download.description }}</a>
+	</li>
+  </ul>
+
+</div><!--//download link-->
+{% endif %}
