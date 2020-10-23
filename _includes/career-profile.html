@@ -1,6 +1,18 @@
+{% assign career-profile = site.data.data.career-profile %}
+{% if career-profile %}
 <section class="section summary-section">
-<h2 class="section-title"><i class="fa fa-user"></i>Personal Summary</h2>
-<div class="summary">
-    <p>As a designer and a critical thinker, I develop creative and flexible solutions to complex and meaningful design challenges, no matter the context, environment, or technology. I've been a contributor and leader on projects in various industries and countries on both sides of the Atlantic ocean. To reach my next level of accomplishment, I'm looking to help organizations large and small with their Human-centered Experience Design, from developing strategy to executing tactics.</p>
-</div><!--//summary-->
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-user fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ career-profile.title }}
+  </h2>
+
+  <div class="summary">
+    {{ career-profile.summary | markdownify }}
+  </div><!--//summary-->
+    
 </section><!--//section-->
+{% endif %}

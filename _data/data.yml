@@ -1,0 +1,211 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Qa'id Jacobs
+    tagline: UX Designer & Creative Director
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: working.qaid@gmail.com
+    # phone: 012 345 6789
+    website: qaidjacobs.com #do not add http://
+    linkedin: qaidjacobs
+    github: qaid
+    # telegram: # add your nickname without '@' sign
+    # gitlab:
+    # bitbucket:
+    # twitter: '@webjeda'
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: French
+        level: Casual
+
+      - idiom: Dutch
+        level: Enough for beers
+
+    interests:
+      - item: DJ'ing
+        link:
+
+      - item: Basketball (hooping)
+        link:
+
+      - item: Writing
+        link:
+
+      - item: Snowboarding
+        link:          
+
+      - item: Photography
+        link:
+
+      - item: Capoeria
+        link:
+
+download:
+    title: Download PDF
+    link: 'resume.qaidjacobs.com/Qaid-Jacobs-UX-and-Product-Designer.pdf'
+    description: Download PDF of my CV/Resume
+
+career-profile:
+    title: Personal Objective
+    summary: |
+      As a designer and a critical thinker, I develop creative and flexible solutions to complex and meaningful design challenges, no matter the context, environment, or technology. I've been a contributor and leader on projects in various industries and countries on both sides of the Atlantic ocean. To reach my next level of accomplishment, I'm looking to help organizations large and small with their Human-centered Experience Design, from developing strategy to executing tactics.
+education:
+    - degree: BM in Music
+      university: New York University
+      time: 1995 - 1999
+      details: 
+
+    - degree: Wed Design & Development
+      university: Treehouse (12,210 pts)
+      time: 2012 - 2016
+      details: 
+
+experiences:
+    - role: Founder / Creative Director
+      time: 2017 - Present
+      company: Constellation Design, Amsterdam
+      details: |
+        - Discover project and product needs based on client interviews
+        - Plan research, design, and delivery processes for addressing client needs
+        - Organize and lead exploration and ideation sessions
+        - Diagram, design, prototype, and iterate upon user interfaces and interaction patterns
+
+    - role: User Experience & Interaction Design Mentor
+      time: 2016 - Present
+      company: DesignLab, Remote
+      details: |
+        - Advise and guide students through learning materials
+        - Increase student knowledge of core UX and Design principles
+        - Provide context, details, and real-word application of UX and Interaction Design notions
+        - Generally support and encourage students through challenging experiences
+    - role: Product Designer / Creative Director
+      time: 2019 - Present
+      company: Channel Affairs, Amsterdam
+      details: |
+        - Discover project and product needs based on client interviews
+        - Supervise and review the work of team designers
+        - Diagram, design, prototype, and iterate upon user interfaces and interaction patterns
+        - Prepare and handoff interface designs to development team
+        - Help team with use of design and presentation tools
+    - role: Director of Design
+      time: 2016 - 2019
+      company: SheSharp, Amsterdam
+      details: |
+        - Lead and collaborate on the development and execution of creative concepts and materials that represent the organization, its mission, and aesthetic
+        - Designed marketing and promotional materials to support events and initiatives
+    - role: User Experience Designer
+      time: 2018 - 2019
+      company: StartMonday / Bizzy Labs, Amsterdam
+      details: |
+        - Conducted user testing to mitigate risky design decisions
+        - Diagrammed, designed, prototyped, and iterated upon user interfaces and interaction patterns
+        - Prepared and handed-off interface designs to development team
+    - role: User Experience & Product Designer
+      time: 2016 - 2017
+      company: VONQ, Amsterdam
+      details: |
+        - Defined jobs-to-be-done objectives, customer journeys, workflows, and screen designs
+        - Produced product concepts and delivered UX assets (wireframes, sitemaps, interactive prototypes) to support product vision
+        - Helped establish product roadmap through User-centered goals prioritization
+    - role: User Experience & Product Designer
+      time: 2014 - 2016
+      company: NIPO Software, Amsterdam
+      details: |
+        - Diagrammed, designed, prototyped, and iterated upon user interfaces and interaction patterns
+        - Prepared and handed off interface designs to development team
+        - Organized and conducted user testing and research.
+        - Helped establish product roadmap through User-centered goals prioritization and collaboration with management teams.
+    - role: Web Designer
+      time: 2013 - 2014
+      company: Booking.com, Amsterdam
+      details: |
+        - Designed usable and effectiveness views implemented with HTML / JS / CSS as part of the Search Results team
+        - Delivered interactive prototypes, wireframes, and mock-ups to mitigate risk
+        - Performed A/B and multivariate testing to determine optimal designs to ship
+projects:
+    title: Projects
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: The Art of Computer Programming
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: A syntax directed compiler for Algol 60
+        link: "#"
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
