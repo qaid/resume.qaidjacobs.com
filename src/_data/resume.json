@@ -1,0 +1,126 @@
+{
+  "name": "Qa'id Jacobs",
+  "tagline": "Product Designer & Creativity Engine",
+  "avatar": "/img/profile.png",
+  "contact": {
+    "email": "working.qaid@gmail.com",
+    "website": "qaidjacobs.com",
+    "linkedin": "qaidjacobs",
+    "github": "qaid"
+  },
+  "download": {
+    "title": "Download PDF",
+    "url": "/Qaid-Jacobs-UX-and-Product-Designer.pdf"
+  },
+  "careerProfile": "As a designer and a critical thinker, I develop creative and flexible solutions to complex and meaningful design challenges, no matter the context, environment, or technology. I've been a contributor and leader on projects in various industries and countries on both sides of the Atlantic ocean. To reach my next level of accomplishment, I'm looking to help organizations large and small with their Human-centered Experience Design, from developing strategy to executing tactics.\n\nI'm a DJ, a father, and a dreamer.",
+  "experiences": [
+    {
+      "role": "Senior Product Designer",
+      "time": "Feb 2022 - Present",
+      "company": "Hudl, Amsterdam",
+      "details": ""
+    },
+    {
+      "role": "UX Designer / Product Consultant",
+      "time": "Mar 2019 - Present",
+      "company": "African Puzzle, Amsterdam",
+      "details": "- Diagram, design, prototype, and iterate upon user interfaces and interaction patterns\n- Communicate design and interaction details to dev team\n- Automation through web services and APIs\n- Manage dev team productivity/delivery platforms\n- Manage user support/communication platforms"
+    },
+    {
+      "role": "Founder / Creative Director",
+      "time": "Jun 2017 - Present",
+      "company": "Constellation Design, Amsterdam",
+      "details": "- Discover project and product needs based on client interviews\n- Plan research, design, and delivery processes for addressing client needs\n- Organize and lead exploration and ideation sessions\n- Diagram, design, prototype, and iterate upon user interfaces and interaction patterns"
+    },
+    {
+      "role": "User Experience & Interaction Design Mentor",
+      "time": "Sep 2016 - Present",
+      "company": "Designlab, Remote",
+      "details": "- Advise and guide students through learning materials\n- Increase student knowledge of core UX and Design principles\n- Provide context, details, and real-word application of UX and Interaction Design notions"
+    },
+    {
+      "role": "Design Consultant",
+      "time": "Sep 2019 - Sep 2021",
+      "company": "Channel Affairs, Amsterdam",
+      "details": "- Discover project and product needs based on client interviews\n- Supervise and review the work of team designers\n- Diagram, design, prototype, and iterate upon user interfaces and interaction patterns\n- Prepare and handoff interface designs to development team\n- Help team with use of design and presentation tools"
+    },
+    {
+      "role": "Director of Design",
+      "time": "Sep 2016 - Sep 2019",
+      "company": "SheSharp, Amsterdam",
+      "details": "- Lead and collaborate on the development and execution of creative concepts and materials that represent the organization, its mission, and aesthetic\n- Designed marketing and promotional materials to support events and initiatives"
+    },
+    {
+      "role": "UX Designer",
+      "time": "Feb 2018 - Jan 2019",
+      "company": "StartMonday / Bizzy Labs, Amsterdam",
+      "details": "- Conducted user testing to mitigate risky design decisions\n- Diagrammed, designed, prototyped, and iterated upon user interfaces and interaction patterns\n- Prepared and handed-off interface designs to development team"
+    },
+    {
+      "role": "User Experience Designer",
+      "time": "Sep 2016 - Jun 2017",
+      "company": "VONQ, Amsterdam",
+      "details": "- Defined jobs-to-be-done objectives, customer journeys, workflows, and screen designs\n- Produced product concepts and delivered UX assets (wireframes, sitemaps, interactive prototypes) to support product vision\n- Helped establish product roadmap through User-centered goals prioritization"
+    },
+    {
+      "role": "User Experience Designer",
+      "time": "Jul 2014 - Jun 2016",
+      "company": "NIPO Software, Amsterdam",
+      "details": "- Diagrammed, designed, prototyped, and iterated upon user interfaces and interaction patterns\n- Prepared and handed off interface designs to development team\n- Organized and conducted user testing and research\n- Helped establish product roadmap through User-centered goals prioritization and collaboration with management teams"
+    },
+    {
+      "role": "Web Designer",
+      "time": "May 2013 - Jan 2014",
+      "company": "Booking.com, Amsterdam",
+      "details": "- Designed usable and effectiveness views implemented with HTML / JS / CSS as part of the Search Results team\n- Delivered interactive prototypes, wireframes, and mock-ups to mitigate risk\n- Performed A/B and multivariate testing to determine optimal designs to ship"
+    },
+    {
+      "role": "Web & Multimedia Manager",
+      "time": "Jun 2009 - Apr 2013",
+      "company": "Center for Constitutional Rights (CCR), New York City",
+      "details": "In-house graphic design, web development, video production and editing, sys-administration, and strategic consulting to help envision, execute, maintain, and analyze multimedia."
+    },
+    {
+      "role": "Database Architect & Circulation Marketer",
+      "time": "Dec 2002 - Apr 2007",
+      "company": "The New York Sun, New York City",
+      "details": "Online and offline database marketing and graphic design; Circulation system database management."
+    },
+    {
+      "role": "Web & Multimedia Marketing",
+      "time": "Oct 2000 - Sep 2001",
+      "company": "Universal Music Group, New York City",
+      "details": "Online campaigns promoting urban music artists; email and database marketing; analytics reporting."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Music, Music & Finance",
+      "university": "New York University",
+      "time": "1995 - 1999"
+    },
+    {
+      "degree": "",
+      "university": "The George Washington University",
+      "time": "1994 - 1995"
+    }
+  ],
+  "skills": [
+    "User Experience",
+    "Design Systems",
+    "Product Design"
+  ],
+  "languages": [
+    { "name": "English", "level": "Native" },
+    { "name": "French", "level": "" },
+    { "name": "Spanish", "level": "" }
+  ],
+  "interests": [
+    "DJ'ing",
+    "Basketball (hooping)",
+    "Writing",
+    "Snowboarding",
+    "Photography",
+    "Capoeira"
+  ]
+}
