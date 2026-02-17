@@ -1,0 +1,56 @@
+<!-- Page 3: Remaining Experience + Selected Work -->
+<article class="resume-page" aria-label="Resume page 3 of 4">
+  <!-- Remaining Experience -->
+  <section class="section-typed" aria-label="Professional experience continued">
+    <h2 class="section-title-typed">Professional Experience <span class="faded-typing">(continued)</span></h2>
+
+    {% for exp in resume.experiences %}
+    {% if loop.index > 6 %}
+    <div class="experience-typed">
+      <div class="experience-header-typed">
+        <span class="role-typed">{{ exp.role }}</span>
+        <span class="time-typed">{{ exp.time }}</span>
+      </div>
+      <div class="company-typed">{{ exp.company }}</div>
+      {% if exp.details %}
+      <div class="experience-details">
+        {{ exp.details | md | safe }}
+      </div>
+      {% endif %}
+    </div>
+    {% endif %}
+    {% endfor %}
+  </section>
+
+  <!-- Selected Work -->
+  <section class="section-typed" aria-label="Selected work">
+    <h2 class="section-title-typed">Selected Work</h2>
+
+    {% for work in resume.selectedWork %}
+    <div class="work-item">
+      <div class="work-meta">
+        <div>
+          <span class="work-title">{{ work.title }}</span>
+          {% if work.subtitle %}
+          <span class="work-subtitle"> &mdash; {{ work.subtitle }}</span>
+          {% endif %}
+        </div>
+        <span class="work-year">{{ work.year }}</span>
+      </div>
+      <div class="work-tags">{{ work.tags | join(" / ") }}</div>
+      <p class="work-description">{{ work.description }}</p>
+      {% if work.highlights %}
+      <div class="experience-details">
+        <ul>
+          {% for highlight in work.highlights %}
+          <li>{{ highlight }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </section>
+
+  <div class="page-number" aria-hidden="true">3 / 4</div>
+</article>

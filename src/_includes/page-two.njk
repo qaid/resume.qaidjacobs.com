@@ -1,0 +1,25 @@
+<!-- Page 2: Professional Experience (first 6 roles) -->
+<article class="resume-page" aria-label="Resume page 2 of 4">
+  <section class="section-typed" aria-label="Professional experience">
+    <h2 class="section-title-typed">Professional Experience</h2>
+
+    {% for exp in resume.experiences %}
+    {% if loop.index <= 6 %}
+    <div class="experience-typed">
+      <div class="experience-header-typed">
+        <span class="role-typed">{{ exp.role }}</span>
+        <span class="time-typed">{{ exp.time }}</span>
+      </div>
+      <div class="company-typed">{{ exp.company }}</div>
+      {% if exp.details %}
+      <div class="experience-details">
+        {{ exp.details | md | safe }}
+      </div>
+      {% endif %}
+    </div>
+    {% endif %}
+    {% endfor %}
+  </section>
+
+  <div class="page-number" aria-hidden="true">2 / 4</div>
+</article>

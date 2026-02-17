@@ -1,0 +1,64 @@
+<!-- Page 1: Header, Hero, Technical Skills -->
+<article class="resume-page" aria-label="Resume page 1 of 4">
+  <!-- Header -->
+  <header class="page-header">
+    <h1 class="name-typed">{{ resume.name }}</h1>
+    <div class="contact-typed">
+      <a href="mailto:{{ resume.contact.email }}">{{ resume.contact.email }}</a>
+      <span class="separator">|</span>
+      <a href="https://{{ resume.contact.website }}">{{ resume.contact.website }}</a>
+      <span class="separator">|</span>
+      <a href="https://linkedin.com/in/{{ resume.contact.linkedin }}">LinkedIn</a>
+      <span class="separator">|</span>
+      <a href="https://github.com/{{ resume.contact.github }}">GitHub</a>
+    </div>
+  </header>
+
+  <!-- Hero / Identity Statement -->
+  <section class="section-typed" aria-label="Professional summary">
+    <p class="identity-statement">{{ resume.hero.identity }}</p>
+    <p class="hero-statement">{{ resume.hero.statement }}</p>
+    <ul class="typewritten-list">
+      {% for highlight in resume.hero.highlights %}
+      <li>{{ highlight }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <!-- Technical Skills -->
+  <section class="section-typed" aria-label="Technical skills">
+    <h2 class="section-title-typed">Technical Skills</h2>
+
+    <div class="skill-category">
+      <div class="skill-category-title">Languages</div>
+      <div class="skill-tags">{{ resume.technicalSkills.languages | join(", ") }}</div>
+    </div>
+
+    <div class="skill-category">
+      <div class="skill-category-title">Frameworks & Platforms</div>
+      <div class="skill-tags">{{ resume.technicalSkills.frameworks | join(", ") }}</div>
+    </div>
+
+    <div class="skill-category">
+      <div class="skill-category-title">CSS Expertise</div>
+      <div class="skill-tags">{{ resume.technicalSkills.cssExpertise | join(", ") }}</div>
+    </div>
+
+    <div class="skill-category">
+      <div class="skill-category-title">JavaScript Expertise</div>
+      <div class="skill-tags">{{ resume.technicalSkills.jsExpertise | join(", ") }}</div>
+    </div>
+
+    <div class="skill-category">
+      <div class="skill-category-title">Design Tools</div>
+      <div class="skill-tags">{{ resume.technicalSkills.designTools | join(", ") }}</div>
+    </div>
+
+    <div class="skill-category">
+      <div class="skill-category-title">Build & Deploy</div>
+      <div class="skill-tags">{{ resume.technicalSkills.buildTools | join(", ") }}</div>
+    </div>
+  </section>
+
+  <div class="page-number" aria-hidden="true">1 / 4</div>
+</article>

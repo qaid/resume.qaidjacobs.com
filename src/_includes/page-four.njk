@@ -1,0 +1,96 @@
+<!-- Page 4: Design Philosophy, Cultural Practice, Education, Languages, Interests, Speaking/Writing, Accessibility -->
+<article class="resume-page" aria-label="Resume page 4 of 4">
+  <!-- Design Philosophy -->
+  <section class="section-typed" aria-label="Design philosophy">
+    <h2 class="section-title-typed">Design Philosophy</h2>
+    <p class="hero-statement">{{ resume.designPhilosophy.statement }}</p>
+    <ul class="typewritten-list">
+      {% for principle in resume.designPhilosophy.principles %}
+      <li>{{ principle }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <!-- Cultural Practice -->
+  <section class="section-typed" aria-label="Cultural practice">
+    <h2 class="section-title-typed">Cultural Practice</h2>
+    <p class="typewritten-text" style="margin-bottom: 12px;">{{ resume.culturalPractice.statement }}</p>
+    {% for practice in resume.culturalPractice.practices %}
+    <div class="practice-item">
+      <div class="practice-title">{{ practice.title }}</div>
+      <p class="practice-description">{{ practice.description }}</p>
+    </div>
+    {% endfor %}
+  </section>
+
+  <!-- Education -->
+  <section class="section-typed" aria-label="Education">
+    <h2 class="section-title-typed">Education</h2>
+    {% for edu in resume.education %}
+    <div class="education-typed">
+      {% if edu.degree %}
+      <div class="education-degree">{{ edu.degree }}</div>
+      {% endif %}
+      <div class="education-school">{{ edu.university }}</div>
+      <div class="education-year">{{ edu.time }}</div>
+    </div>
+    {% endfor %}
+  </section>
+
+  <!-- Languages -->
+  <section class="section-typed" aria-label="Languages">
+    <h2 class="section-title-typed">Languages</h2>
+    {% for lang in resume.languages %}
+    <div class="language-item">
+      <span>{{ lang.name }}</span>
+      {% if lang.level %}
+      <span class="language-level">{{ lang.level }}</span>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </section>
+
+  <!-- Interests -->
+  <section class="section-typed" aria-label="Interests">
+    <h2 class="section-title-typed">Interests</h2>
+    <ul class="interests-list">
+      {% for interest in resume.interests %}
+      <li>{{ interest }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <!-- Speaking & Writing -->
+  <section class="section-typed" aria-label="Speaking and writing">
+    <h2 class="section-title-typed">Speaking & Writing</h2>
+
+    {% for item in resume.speakingWriting.speaking %}
+    <div class="speaking-item">
+      <div class="speaking-title">{{ item.title }}</div>
+      <div class="speaking-meta">{{ item.event }} &mdash; {{ item.year }}</div>
+      <p class="speaking-description">{{ item.description }}</p>
+    </div>
+    {% endfor %}
+
+    {% for item in resume.speakingWriting.writing %}
+    <div class="writing-item">
+      <div class="writing-title">{{ item.title }}</div>
+      <div class="writing-meta">{{ item.publication }} &mdash; {{ item.year }}</div>
+      <p class="writing-description">{{ item.description }}</p>
+    </div>
+    {% endfor %}
+  </section>
+
+  <!-- Accessibility Expertise -->
+  <section class="section-typed" aria-label="Accessibility expertise">
+    <h2 class="section-title-typed">Accessibility</h2>
+    <p class="typewritten-text" style="margin-bottom: 12px;">{{ resume.accessibilityExpertise.statement }}</p>
+    <ul class="typewritten-list">
+      {% for practice in resume.accessibilityExpertise.practices %}
+      <li>{{ practice }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <div class="page-number" aria-hidden="true">4 / 4</div>
+</article>

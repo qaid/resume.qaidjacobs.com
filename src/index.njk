@@ -1,0 +1,27 @@
+---
+layout: base.njk
+---
+
+<div class="desktop-scene">
+  <!-- Manila Folder (decorative) -->
+  <div class="manila-folder" aria-hidden="true">
+    <div class="folder-tab">
+      <span class="folder-label">{{ resume.name }}</span>
+    </div>
+  </div>
+
+  <!-- Resume Pages -->
+  <div class="resume-pages" aria-live="polite">
+    {% include "page-one.njk" %}
+    {% include "page-two.njk" %}
+    {% include "page-three.njk" %}
+    {% include "page-four.njk" %}
+  </div>
+
+  <!-- Page Navigation -->
+  <nav class="page-nav" aria-label="Resume page navigation">
+    <button class="page-nav-btn prev" aria-label="Previous page">Prev</button>
+    <span class="page-nav-indicator">1 / 4</span>
+    <button class="page-nav-btn next" aria-label="Next page">Next</button>
+  </nav>
+</div>
