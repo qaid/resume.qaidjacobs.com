@@ -1,0 +1,17 @@
+<section class="section">
+  <h2 class="section-title">Experiences</h2>
+  {% for exp in resume.experiences %}
+  <div class="experience-item">
+    <div class="experience-header">
+      <h3 class="experience-role">{{ exp.role }}</h3>
+      <span class="experience-time">{{ exp.time }}</span>
+    </div>
+    <p class="experience-company">{{ exp.company }}</p>
+    {% if exp.details %}
+    <div class="experience-details">
+      {{ exp.details | md | safe }}
+    </div>
+    {% endif %}
+  </div>
+  {% endfor %}
+</section>
